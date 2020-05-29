@@ -24,12 +24,12 @@ body
 .container .box
 {
 	position: relative;
-	width: 350px;
-	padding: 40px;
+	width: 250px;
+	padding: 10px;
 	background: #fff;
 	box-shadow: 0 5px 15px rgba(0,0,0,.1);
 	border-radius: 4px;
-	margin: 50px;
+	margin: 20px;
 	box-sising: border-box;
 	overflow: hidden;
 	text-align: center;
