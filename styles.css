@@ -1,0 +1,40 @@
+.
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+min-height: 100vh;
+background: #f3f4f6;
+}
+.box
+{
+position: relative;
+width: 200px;
+height: 200px;
+margin: 25px;
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: white;
+box-shadow: -15px -15px 15px rgba(255,255,255,0.5),
+            -15px -15px 15px rgba(0,0,0,05);
+}
+.box:nth-child(2)
+{
+box-shadow: -15px -15px 15px rgba(255,255,255,0),
+            -15px -15px 15px rgba(0,0,0,0),
+            inset 4px -4px 5px rgba(255,255,255,0.8),
+            inset -4px -4px 5px rgba(0,0,0,0.5),
+            0 50px 40px rgba(0,0,0,0.5);
+}
+.box img
+{
+max-width: 160px;
+}
