@@ -12,13 +12,9 @@ body
 }
 .container
 {
-	margin: 0;
-	height: calc(50vh - 2px);
-	width: calc(100vw - 20px);
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-around;
 
 }
 .container .box
